@@ -2,16 +2,16 @@ This package is built for detecting person in frame.\
 MobileNetSSD is used for the detection.\
 \
 Keep the package in '/catkin_ws/src'\
-'catkin_make' the package in catkin_ws deirectory\
+'catkin_make' the package in catkin_ws deirectory
 
 Run  - 'roslaunch human_detection human_detection_launch.launch'\
-	or 'rosrun human_detection my_human_detection.py'\
+	or 'rosrun human_detection my_human_detection.py'
 	
 	
-In second terminal, run - 'rosbag record --duration=60 -O human_detection.bag /webcam' to record the webcam topic for 60 seconds and create a bag.\
+In second terminal, run - 'rosbag record --duration=60 -O human_detection.bag /webcam' to record the webcam topic for 60 seconds and create a bag.
 
 
-press ctrl+c in running terminal to exit.\
+press ctrl+c in running terminal to exit.
 
 
 
