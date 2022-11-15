@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="human_detection" type="my_human_detection.py" name="webcam" output="screen">
+    </node>
+</launch>
